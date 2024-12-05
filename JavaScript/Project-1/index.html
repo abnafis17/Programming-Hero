@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Tracker</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1 class="text-center">Income Tracker</h1>
+    <section class="main-section">
+        <div class="container-fluid row">
+            <div class="img-section col-sm-6">
+                <img class="object-cover" src="images/money-tracker.jpg" alt="Money Tracker">
+            </div>
+            <div class="tracker-section col-sm-6">
+                <div class="section-container text-center">
+                    <!-- income input -->
+                    <h3>Income</h3>
+                    <p>Income:</p>
+                    <input type="text" id="income"> <br>
+                    <span id="conOne"></span>
+
+                    <!-- Expenses -->
+                    <h3>Expenses</h3>
+                    <p>Food:</p>
+                    <input type="text" id="food"> <br>
+                    <span id="conTwo"></span> <br>
+                    <p>Rent:</p>
+                    <input type="text" id="rent"> <br>
+                    <span id="conThree"></span> <br>
+                    <p>Clothes:</p>
+                    <input type="text" id="clothes"> <br>
+                    <span id="conFour"></span> <br>
+
+                    <button class="btn btn-info" type="submit" id="calButton">Calculator</button> <br>
+
+                    <p id="conFive"></p> <br>
+
+                    <p>Total Expenses:</p>
+                    <p id="totalExp"></p> <br>
+                    <p>Balance:</p>
+                    <p id="netbalance"></p> <br>
+
+                    <p>Save:</p>
+                    <input type="text" id="savePercent">
+                    <p>%</p>
+                    <button class="btn btn-info" type="submit" id="btnsave">Save</button> <br>
+                    <p id="conSix"></p> <br>
+
+                    <p>Saving Amount:</p>
+                    <p id="saveAmount"></p> <br>
+                    <p>Remaining Balance:</p>
+                    <p id="remainBalance"></p> <br>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- js files -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
