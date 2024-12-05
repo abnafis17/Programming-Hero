@@ -1,0 +1,38 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-inner img {
+    height: 584px;
+}
+.carousel-inner h5 {
+    color: #fbc531;
+    font-size: 36px;
+}
+.carousel-inner p {
+    color: #f5f6fa;
+    font-size: 24px;
+}
+
+.packages {
+    margin-top: 20px;
+}
+
+.hot {
+    background-color: coral;
+}
+
+footer {
+    background-color: #0B0D17;
+    color: white;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.app a {
+    text-decoration: none;
+}
