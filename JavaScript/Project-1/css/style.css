@@ -1,0 +1,30 @@
+h1 {
+    color:coral;
+    margin:30px 0;
+}
+h3 {
+    margin: 20px 0;
+}
+p {
+    margin: 10px 0;
+}
+.img-section {
+    overflow: hidden;
+}
+.img-section img {
+    width: 100%;
+    height: 745px;
+}
+.section-container{
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section-container p {
+    display: inline-block;
+    font-weight: 600;
+}
+
+#conOne, #conTwo, #conThree, #conFour, #conFive, #conSix {
+    color: #ee5253;
+}
